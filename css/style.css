@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: o;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+}
+footer, address{
+    border: 1px solid black;
+    display: block;
+    background: black;
+    color: white;
+    
+}
+
+
+}
+#tit1{
+    font-size: 60px;
+}
+
+#tit2{
+    font-size: 60px;
+    background: rgb(27, 27, 185);
+    color: white;
+}
+
+figure#primeraparte{
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+figcaption{
+    color: white;
+    transition: all 0.5s;
+    font-size: 30px;
+    background: rgba(0,0,0, 0.7);
+    position: absolute;
+    left: 0px;
+    bottom: -200px;
+    width: 100%;
+    
+
+}
+
+#txt1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#txt2{
+    padding: 50px;
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+figure:hover figcaption{
+    bottom: 0px;
+}
+
+
+#imggen{
+    width: 100%;
+    margin: 0;
+    
+}
+
+
+
+.menu{
+    margin-top: 10px;
+    bottom: 0;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background: rgb(27, 27, 189);
+    font-weight: bold;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.menu a:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+body{
+    text-align: center;
+}
+
+#productos{
+    
+    width: 960;
+    margin:  auto;
+    padding: 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+header{
+    background: rgb(27, 27, 189);
+
+}
+
+.izqpp{
+    
+    display: inline-block;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+
+.cenpp{
+    margin-left: 35px;
+    text-align: left;
+    display: inline-block;
+    
+    padding-left: 35px;
+}
+
+.derpp{
+    
+    margin-left: 35px;
+    text-align: left;
+    display: inline-block;
+    
+    padding-left: 35px;
+    padding-bottom: 20px;
+    
+}
+
+#colorlogo{
+    color: white;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header  */
+header{
+    width: 100%;
+    text-align: center;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Form  */
+header nav form{
+    width: 90%;
+}
+header nav form input{
+    padding: 10px;
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 4px;
+    border:none;
+    background: #faf9f9;
+    box-shadow: inset 0px 0px 3px  rgba(0,0,0,.2);
+    outline: none;
+    transition: all .4s;
+    font-family: 'Roboto', sans-serif;
+}
+header nav form input:focus{
+    box-shadow: inset 0px 0px 5px  rgba(0,0,0,.3);
+}
+
+/* Products  */
+header nav form #response{
+    width: 100%;
+}
+header nav form #response li{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+header nav form #response li .img{
+    width: 80px;
+}
+header nav form #response li img{
+    width: 100%;
+}
+
+/* SINGLE RESULT  */
+
+.single{ 
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.single .product{
+    width: 180px; 
+    text-align: center;
+    margin: 5px 1px;
+    /* background: #eeeeee; */
+    padding: 2px;
+    border: 1px solid #000;
+}
+.single .product .img{
+    width: 100%;
+    margin:0px auto;
+}
+.single .product img{
+    width: 100%;
+}
+.single .product .title{
+    color: #424242;
+}
+.single .product .price{
+    font-size: 10pt;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+
+}
+/* Footer  */
+footer{
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+    color:#d3d3d3;
+}
