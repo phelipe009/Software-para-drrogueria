@@ -1,0 +1,38 @@
+  #menu ul{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                     margin-top: 10px;
+                   float: none;
+                   display: inline-block;
+                  background: rgb(27, 27, 189);
+                  font-weight: bold;
+               }
+               #menu ul:hover{
+               	background: rgba(255,255,255,0.2);
+               }
+               #menu #item{
+                    float: left;
+               }
+
+          #menu #item a{
+          	background: rgb(27, 27, 189);
+          	color: rgba(255,255,255,1);
+          	padding: 12px 22px;
+          	display: block;
+          	font-family: arial;
+          	font-size: 16px;
+          	text-decoration: none;
+          	text-align: center;
+          }
+
+          #menu #desple {
+          	display: none;
+          }
+          #menu  #item:hover {
+          	background: rgba(0,102,204,1);
+          	color: rgba(0,204,255,1);
+          }
+          #menu  #item:hover #desple{
+          	display: block;
+          }
